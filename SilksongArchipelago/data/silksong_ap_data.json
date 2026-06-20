@@ -11,7 +11,7 @@
     "Drifter's Cloak": "hasBrolly",
     "Faydown Cloak": "hasDoubleJump",
     "Needolin": "hasNeedolin",
-    "Needle Strike": "hasNeedleThrow",
+    "Needle Strike": "hasChargeSlash",
     "Elegy of the Deep": "hasNeedolinMemoryPowerup",
     "Sylphsong": null,
     "Beastling Call": null
@@ -550,7 +550,7 @@
       "name": "Blasted Steps - Needle Strike",
       "region": "Blasted Steps",
       "vanilla_item": "Needle Strike",
-      "flag": "hasNeedleThrow",
+      "flag": "hasChargeSlash",
       "gameObject": null,
       "scene": null,
       "suppress": true,
@@ -4555,7 +4555,7 @@
       "classification": "progression",
       "effect": {
         "kind": "set_bool",
-        "flag": "hasNeedleThrow",
+        "flag": "hasChargeSlash",
         "amount": 1
       }
     },
