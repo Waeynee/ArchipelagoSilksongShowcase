@@ -1,0 +1,4684 @@
+{
+  "game": "Hollow Knight Silksong",
+  "base_item_id": 9300000,
+  "base_location_id": 9400000,
+  "goal_region": "The Cradle",
+  "ability_flags": {
+    "Swift Step": "hasDash",
+    "Cling Grip": "hasWalljump",
+    "Clawline": "hasHarpoonDash",
+    "Silk Soar": "hasSuperJump",
+    "Drifter's Cloak": "hasBrolly",
+    "Faydown Cloak": "hasDoubleJump",
+    "Needolin": "hasNeedolin",
+    "Needle Strike": "hasNeedleThrow",
+    "Elegy of the Deep": "hasNeedolinMemoryPowerup",
+    "Sylphsong": null,
+    "Beastling Call": null
+  },
+  "locations": [
+    {
+      "id": 9400000,
+      "name": "Area Map - Abyss",
+      "region": "The Abyss",
+      "vanilla_item": "Area Map - Abyss",
+      "flag": "HasAbyssMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400001,
+      "name": "Area Map - Aqueduct",
+      "region": "Bilewater",
+      "vanilla_item": "Area Map - Aqueduct",
+      "flag": "HasAqueductMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400002,
+      "name": "Area Map - Arborium",
+      "region": "Verdania",
+      "vanilla_item": "Area Map - Arborium",
+      "flag": "HasArboriumMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400003,
+      "name": "Area Map - Bellhart",
+      "region": "Bellhart",
+      "vanilla_item": "Area Map - Bellhart",
+      "flag": "HasBellhartMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400004,
+      "name": "Area Map - Boneforest",
+      "region": "Far Fields",
+      "vanilla_item": "Area Map - Boneforest",
+      "flag": "HasBoneforestMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400005,
+      "name": "Area Map - Citadel Understore",
+      "region": "Underworks",
+      "vanilla_item": "Area Map - Citadel Understore",
+      "flag": "HasCitadelUnderstoreMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400006,
+      "name": "Area Map - Clover",
+      "region": "Verdania",
+      "vanilla_item": "Area Map - Clover",
+      "flag": "HasCloverMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400007,
+      "name": "Area Map - Cog",
+      "region": "Cogwork Core",
+      "vanilla_item": "Area Map - Cog",
+      "flag": "HasCogMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400008,
+      "name": "Area Map - Coral",
+      "region": "Coral Caverns",
+      "vanilla_item": "Area Map - Coral",
+      "flag": "HasCoralMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400009,
+      "name": "Area Map - Cradle",
+      "region": "The Cradle",
+      "vanilla_item": "Area Map - Cradle",
+      "flag": "HasCradleMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400010,
+      "name": "Area Map - Crawl",
+      "region": "Craw Lake",
+      "vanilla_item": "Area Map - Crawl",
+      "flag": "HasCrawlMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400011,
+      "name": "Area Map - Docks",
+      "region": "Deep Docks",
+      "vanilla_item": "Area Map - Docks",
+      "flag": "HasDocksMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400012,
+      "name": "Area Map - Dustpens",
+      "region": "Sands of Karak",
+      "vanilla_item": "Area Map - Dustpens",
+      "flag": "HasDustpensMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400013,
+      "name": "Area Map - Greymoor",
+      "region": "Greymoor",
+      "vanilla_item": "Area Map - Greymoor",
+      "flag": "HasGreymoorMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400014,
+      "name": "Area Map - Halls",
+      "region": "High Halls",
+      "vanilla_item": "Area Map - Halls",
+      "flag": "HasHallsMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400015,
+      "name": "Area Map - Hang",
+      "region": "High Halls",
+      "vanilla_item": "Area Map - Hang",
+      "flag": "HasHangMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400016,
+      "name": "Area Map - Hunters Nest",
+      "region": "Hunter's March",
+      "vanilla_item": "Area Map - Hunters Nest",
+      "flag": "HasHuntersNestMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400017,
+      "name": "Area Map - Judge Steps",
+      "region": "Blasted Steps",
+      "vanilla_item": "Area Map - Judge Steps",
+      "flag": "HasJudgeStepsMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400018,
+      "name": "Area Map - Library",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Area Map - Library",
+      "flag": "HasLibraryMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400019,
+      "name": "Area Map - Moss Grotto",
+      "region": "Moss Grotto",
+      "vanilla_item": "Area Map - Moss Grotto",
+      "flag": "HasMossGrottoMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400020,
+      "name": "Area Map - Peak",
+      "region": "Mount Fay",
+      "vanilla_item": "Area Map - Peak",
+      "flag": "HasPeakMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400021,
+      "name": "Area Map - Shellwood",
+      "region": "Shellwood",
+      "vanilla_item": "Area Map - Shellwood",
+      "flag": "HasShellwoodMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400022,
+      "name": "Area Map - Slab",
+      "region": "The Slab",
+      "vanilla_item": "Area Map - Slab",
+      "flag": "HasSlabMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400023,
+      "name": "Area Map - Song Gate",
+      "region": "Choral Chambers",
+      "vanilla_item": "Area Map - Song Gate",
+      "flag": "HasSongGateMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400024,
+      "name": "Area Map - Swamp",
+      "region": "Bilewater",
+      "vanilla_item": "Area Map - Swamp",
+      "flag": "HasSwampMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400025,
+      "name": "Area Map - Ward",
+      "region": "Whiteward",
+      "vanilla_item": "Area Map - Ward",
+      "flag": "HasWardMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400026,
+      "name": "Area Map - Weavehome",
+      "region": "Weavenest",
+      "vanilla_item": "Area Map - Weavehome",
+      "flag": "HasWeavehomeMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400027,
+      "name": "Area Map - Wilds",
+      "region": "The Wilds",
+      "vanilla_item": "Area Map - Wilds",
+      "flag": "HasWildsMap",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400028,
+      "name": "Bellhart - Crest Socket Unlocker",
+      "region": "Bellhart",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "belltown",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400029,
+      "name": "Bellhart - Harpoon",
+      "region": "Bellhart",
+      "vanilla_item": "Harpoon",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "belltown_room_shellwood",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400030,
+      "name": "Bellhart - Needolin",
+      "region": "Bellhart",
+      "vanilla_item": "Needolin",
+      "flag": "hasNeedolin",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400031,
+      "name": "Bilewater - Crest Socket Unlocker",
+      "region": "Bilewater",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Sack Corpse Pickup",
+      "scene": "shadow_27",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400032,
+      "name": "Bilewater - Maggot Charm",
+      "region": "Bilewater",
+      "vanilla_item": "Maggot Charm",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "aqueduct_06",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400033,
+      "name": "Bilewater - Pale_Oil",
+      "region": "Bilewater",
+      "vanilla_item": "Pale_Oil",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Reward 3",
+      "scene": "aqueduct_05_festival",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400034,
+      "name": "Bilewater - Rosary_Set_Frayed",
+      "region": "Bilewater",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "aqueduct_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400035,
+      "name": "Bilewater - Rosary_Set_Frayed #2",
+      "region": "Bilewater",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shadow_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400036,
+      "name": "Bilewater - Rosary_Set_Medium",
+      "region": "Bilewater",
+      "vanilla_item": "Rosary_Set_Medium",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Reward 2",
+      "scene": "aqueduct_05_festival",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400037,
+      "name": "Bilewater - Rosary_Set_Small",
+      "region": "Bilewater",
+      "vanilla_item": "Rosary_Set_Small",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Reward 1",
+      "scene": "aqueduct_05_festival",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400038,
+      "name": "Bilewater - Tool Metal",
+      "region": "Bilewater",
+      "vanilla_item": "Tool Metal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Tool Metal",
+      "scene": "aqueduct_05",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400039,
+      "name": "Blasted Steps - Conch Drill",
+      "region": "Blasted Steps",
+      "vanilla_item": "Conch Drill",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Stand",
+      "scene": "coral_tower_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400040,
+      "name": "Blasted Steps - Conch Drill #2",
+      "region": "Blasted Steps",
+      "vanilla_item": "Conch Drill",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Fling",
+      "scene": "coral_tower_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400041,
+      "name": "Blasted Steps - Coral Heart",
+      "region": "Blasted Steps",
+      "vanilla_item": "Coral Heart",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Heart",
+      "scene": "coral_tower_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400042,
+      "name": "Blasted Steps - Crest Socket Unlocker",
+      "region": "Blasted Steps",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "coral_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400043,
+      "name": "Blasted Steps - Great Shard",
+      "region": "Blasted Steps",
+      "vanilla_item": "Great Shard",
+      "flag": null,
+      "gameObject": "Shell Shard Collectable Item Pickup Instant",
+      "scene": "coral_36",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400044,
+      "name": "Blasted Steps - Magnetite Dice",
+      "region": "Blasted Steps",
+      "vanilla_item": "Magnetite Dice",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "coral_33",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400045,
+      "name": "Blasted Steps - Memento Garmond",
+      "region": "Blasted Steps",
+      "vanilla_item": "Memento Garmond",
+      "flag": null,
+      "gameObject": "Memento Pickup",
+      "scene": "bellway_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400046,
+      "name": "Blasted Steps - Memento Garmond #2",
+      "region": "Blasted Steps",
+      "vanilla_item": "Memento Garmond",
+      "flag": null,
+      "gameObject": "Memento Pickup",
+      "scene": "coral_33",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400047,
+      "name": "Blasted Steps - Memento Garmond #3",
+      "region": "Blasted Steps",
+      "vanilla_item": "Memento Garmond",
+      "flag": null,
+      "gameObject": "Memento Pickup",
+      "scene": "coral_35",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400048,
+      "name": "Blasted Steps - Memento Garmond #4",
+      "region": "Blasted Steps",
+      "vanilla_item": "Memento Garmond",
+      "flag": null,
+      "gameObject": "Memento Pickup",
+      "scene": "coral_43",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400049,
+      "name": "Blasted Steps - Needle Strike",
+      "region": "Blasted Steps",
+      "vanilla_item": "Needle Strike",
+      "flag": "hasNeedleThrow",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400050,
+      "name": "Blasted Steps - Rosary_Set_Frayed",
+      "region": "Blasted Steps",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "coral_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400051,
+      "name": "Blasted Steps - Simple Key",
+      "region": "Blasted Steps",
+      "vanilla_item": "Simple Key",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bellshrine_coral",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400052,
+      "name": "Blasted Steps - Tool Metal",
+      "region": "Blasted Steps",
+      "vanilla_item": "Tool Metal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Tool Metal",
+      "scene": "coral_32",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400053,
+      "name": "Bone Bottom - Memento Surface",
+      "region": "Bone Bottom",
+      "vanilla_item": "Memento Surface",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "abandoned_town",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400054,
+      "name": "Bone Bottom - Rosary_Set_Frayed",
+      "region": "Bone Bottom",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "mosstown_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400055,
+      "name": "Bone Bottom - Weaver Totem Bonetown_upper_room",
+      "region": "Bone Bottom",
+      "vanilla_item": "Weaver Totem Bonetown_upper_room",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bonetown",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400056,
+      "name": "Choral Chambers - Cog Heart Pieces",
+      "region": "Choral Chambers",
+      "vanilla_item": "Cog Heart Pieces",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "arborium_10",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400057,
+      "name": "Choral Chambers - Cog Heart Pieces #2",
+      "region": "Choral Chambers",
+      "vanilla_item": "Cog Heart Pieces",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "song_26",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400058,
+      "name": "Choral Chambers - Crest Socket Unlocker",
+      "region": "Choral Chambers",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "arborium_05",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400059,
+      "name": "Choral Chambers - Crest Socket Unlocker #2",
+      "region": "Choral Chambers",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bellway_city",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400060,
+      "name": "Choral Chambers - Dazzle Bind",
+      "region": "Choral Chambers",
+      "vanilla_item": "Dazzle Bind",
+      "flag": null,
+      "gameObject": "Re-Entry Pickup",
+      "scene": "library_13",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400061,
+      "name": "Choral Chambers - Dazzle Bind #2",
+      "region": "Choral Chambers",
+      "vanilla_item": "Dazzle Bind",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_13",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400062,
+      "name": "Choral Chambers - Dazzle Bind Upgraded",
+      "region": "Choral Chambers",
+      "vanilla_item": "Dazzle Bind Upgraded",
+      "flag": null,
+      "gameObject": "Re-Entry Pickup Upgrade",
+      "scene": "library_13",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400063,
+      "name": "Choral Chambers - Dazzle Bind Upgraded #2",
+      "region": "Choral Chambers",
+      "vanilla_item": "Dazzle Bind Upgraded",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_13",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400064,
+      "name": "Choral Chambers - Lightning Rod",
+      "region": "Choral Chambers",
+      "vanilla_item": "Lightning Rod",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Battle",
+      "scene": "arborium_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400065,
+      "name": "Choral Chambers - Materium",
+      "region": "Choral Chambers",
+      "vanilla_item": "Materium",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Materium",
+      "scene": "arborium_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400066,
+      "name": "Choral Chambers - Pristine Core",
+      "region": "Choral Chambers",
+      "vanilla_item": "Pristine Core",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "cog_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400067,
+      "name": "Choral Chambers - Psalm Cylinder Library Roof",
+      "region": "Choral Chambers",
+      "vanilla_item": "Psalm Cylinder Library Roof",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_09",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400068,
+      "name": "Choral Chambers - Reserve Bind",
+      "region": "Choral Chambers",
+      "vanilla_item": "Reserve Bind",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Song Knight",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400069,
+      "name": "Choral Chambers - Rosary_Set_Large",
+      "region": "Choral Chambers",
+      "vanilla_item": "Rosary_Set_Large",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "library_09",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400070,
+      "name": "Choral Chambers - Rosary_Set_Large #2",
+      "region": "Choral Chambers",
+      "vanilla_item": "Rosary_Set_Large",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "song_04",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400071,
+      "name": "Choral Chambers - Rosary_Set_Medium",
+      "region": "Choral Chambers",
+      "vanilla_item": "Rosary_Set_Medium",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "song_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400072,
+      "name": "Choral Chambers - Rosary_Set_Medium #2",
+      "region": "Choral Chambers",
+      "vanilla_item": "Rosary_Set_Medium",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "song_09",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400073,
+      "name": "Choral Chambers - Shard Pouch",
+      "region": "Choral Chambers",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "arborium_11",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400074,
+      "name": "Choral Chambers - Tool Metal",
+      "region": "Choral Chambers",
+      "vanilla_item": "Tool Metal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Tool Metal",
+      "scene": "under_19b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400075,
+      "name": "Choral Chambers - Ward Key",
+      "region": "Choral Chambers",
+      "vanilla_item": "Ward Key",
+      "flag": "collectedWardKey",
+      "gameObject": "Collectable Item Pickup",
+      "scene": "song_enclave",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400076,
+      "name": "Citadel - Beastling Call",
+      "region": "Citadel",
+      "vanilla_item": "Beastling Call",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400077,
+      "name": "Cogwork Core - Shard Pouch",
+      "region": "Cogwork Core",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "cog_10",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400078,
+      "name": "Coral Caverns - Coral Ingredient",
+      "region": "Coral Caverns",
+      "vanilla_item": "Coral Ingredient",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "coral_41",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400079,
+      "name": "Coral Caverns - Crest Socket Unlocker",
+      "region": "Coral Caverns",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "coral_23",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400080,
+      "name": "Coral Caverns - Grey Memento",
+      "region": "Coral Caverns",
+      "vanilla_item": "Grey Memento",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400081,
+      "name": "Coral Caverns - Grey Memento #2",
+      "region": "Coral Caverns",
+      "vanilla_item": "Grey Memento",
+      "flag": null,
+      "gameObject": "Pit Pickup",
+      "scene": "coral_39",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400082,
+      "name": "Coral Caverns - Grey Memento #3",
+      "region": "Coral Caverns",
+      "vanilla_item": "Grey Memento",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "coral_39",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400083,
+      "name": "Coral Caverns - Zap Imbuement",
+      "region": "Coral Caverns",
+      "vanilla_item": "Zap Imbuement",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "coral_29",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400084,
+      "name": "Craw Lake - Crest Socket Unlocker",
+      "region": "Craw Lake",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "crawl_09",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400085,
+      "name": "Craw Lake - Dead Mans Purse",
+      "region": "Craw Lake",
+      "vanilla_item": "Dead Mans Purse",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Purse",
+      "scene": "crawl_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400086,
+      "name": "Craw Lake - Rosary_Set_Frayed",
+      "region": "Craw Lake",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "crawl_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400087,
+      "name": "Craw Lake - Shell Satchel",
+      "region": "Craw Lake",
+      "vanilla_item": "Shell Satchel",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Satchel",
+      "scene": "crawl_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400088,
+      "name": "Deep Docks - Crest Socket Unlocker",
+      "region": "Deep Docks",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dock_13",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400089,
+      "name": "Deep Docks - Dock Demo Key",
+      "region": "Deep Docks",
+      "vanilla_item": "Dock Demo Key",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "room_forge",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400090,
+      "name": "Deep Docks - Flintstone",
+      "region": "Deep Docks",
+      "vanilla_item": "Flintstone",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dock_02b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400091,
+      "name": "Deep Docks - Great Shard",
+      "region": "Deep Docks",
+      "vanilla_item": "Great Shard",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dock_11",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400092,
+      "name": "Deep Docks - Shard Pouch",
+      "region": "Deep Docks",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400093,
+      "name": "Deep Docks - Shard Pouch #2",
+      "region": "Deep Docks",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dock_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400094,
+      "name": "Deep Docks - Shard Pouch #3",
+      "region": "Deep Docks",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "room_forge",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400095,
+      "name": "Deep Docks - Swift Step",
+      "region": "Deep Docks",
+      "vanilla_item": "Swift Step",
+      "flag": "hasDash",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400096,
+      "name": "Deep Docks - Tool Metal",
+      "region": "Deep Docks",
+      "vanilla_item": "Tool Metal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dock_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400097,
+      "name": "Far Fields - Drifter's Cloak",
+      "region": "Far Fields",
+      "vanilla_item": "Drifter's Cloak",
+      "flag": "hasBrolly",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400098,
+      "name": "Global - Rosary_Set_Small",
+      "region": "Global",
+      "vanilla_item": "Rosary_Set_Small",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400099,
+      "name": "Greymoor - Bone Record Greymoor_flooded_corridor",
+      "region": "Greymoor",
+      "vanilla_item": "Bone Record Greymoor_flooded_corridor",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "greymoor_21",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400100,
+      "name": "Greymoor - Crawbell",
+      "region": "Greymoor",
+      "vanilla_item": "Crawbell",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Crawbell",
+      "scene": "room_crowcourt_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400101,
+      "name": "Greymoor - Crest Socket Unlocker",
+      "region": "Greymoor",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "greymoor_16",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400102,
+      "name": "Greymoor - Crest Socket Unlocker #2",
+      "region": "Greymoor",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "halfway_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400103,
+      "name": "Greymoor - Crowman Memento",
+      "region": "Greymoor",
+      "vanilla_item": "Crowman Memento",
+      "flag": "PickedUpCrowMemento",
+      "gameObject": "Collectable Item Pickup",
+      "scene": "room_crowcourt_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400104,
+      "name": "Greymoor - Rosary_Set_Frayed",
+      "region": "Greymoor",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "greymoor_15",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400105,
+      "name": "Greymoor - Rosary_Set_Frayed #2",
+      "region": "Greymoor",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "greymoor_15b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400106,
+      "name": "Greymoor - Rosary_Set_Frayed #3",
+      "region": "Greymoor",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "wisp_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400107,
+      "name": "Greymoor - Shard Pouch",
+      "region": "Greymoor",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "greymoor_05",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400108,
+      "name": "Greymoor - Shard Pouch #2",
+      "region": "Greymoor",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "greymoor_12",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400109,
+      "name": "Greymoor - Tri Pin",
+      "region": "Greymoor",
+      "vanilla_item": "Tri Pin",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "greymoor_15b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400110,
+      "name": "High Halls - Psalm Cylinder Hang",
+      "region": "High Halls",
+      "vanilla_item": "Psalm Cylinder Hang",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "hang_10",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400111,
+      "name": "High Halls - Reserve Bind",
+      "region": "High Halls",
+      "vanilla_item": "Reserve Bind",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "hang_17b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400112,
+      "name": "High Halls - Rosary Cannon",
+      "region": "High Halls",
+      "vanilla_item": "Rosary Cannon",
+      "flag": null,
+      "gameObject": "Rosary Cannon Pickup",
+      "scene": "hang_06_bank",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400113,
+      "name": "High Halls - Rosary_Set_Frayed",
+      "region": "High Halls",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "hang_16",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400114,
+      "name": "High Halls - Rosary_Set_Huge_White",
+      "region": "High Halls",
+      "vanilla_item": "Rosary_Set_Huge_White",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "hang_06_bank",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400115,
+      "name": "High Halls - Weaver Record Conductor",
+      "region": "High Halls",
+      "vanilla_item": "Weaver Record Conductor",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "hang_12",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400116,
+      "name": "Hunter's March - Crest Socket Unlocker",
+      "region": "Hunter's March",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ant_20",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400117,
+      "name": "Hunter's March - Curve Claws",
+      "region": "Hunter's March",
+      "vanilla_item": "Curve Claws",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ant_21",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400118,
+      "name": "Hunter's March - Fractured Mask",
+      "region": "Hunter's March",
+      "vanilla_item": "Fractured Mask",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ant_merchant",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400119,
+      "name": "Hunter's March - Rosary_Set_Medium",
+      "region": "Hunter's March",
+      "vanilla_item": "Rosary_Set_Medium",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ant_04_left",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400120,
+      "name": "Hunter's March - Vintage Nectar",
+      "region": "Hunter's March",
+      "vanilla_item": "Vintage Nectar",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ant_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400121,
+      "name": "Lost Flea - Bellhart (Belltown_04)",
+      "region": "Bellhart",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Belltown_04",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400122,
+      "name": "Lost Flea - Blasted Steps (Coral_35)",
+      "region": "Blasted Steps",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Coral_35",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400123,
+      "name": "Lost Flea - Choral Chambers (Library_09)",
+      "region": "Choral Chambers",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Library_09",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400124,
+      "name": "Lost Flea - Choral Chambers (Song_11)",
+      "region": "Choral Chambers",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Song_11",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400125,
+      "name": "Lost Flea - Choral Chambers (Song_14)",
+      "region": "Choral Chambers",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Song_14",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400126,
+      "name": "Lost Flea - Coral Caverns (Coral_24)",
+      "region": "Coral Caverns",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Coral_24",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400127,
+      "name": "Lost Flea - Craw Lake (Crawl_06)",
+      "region": "Craw Lake",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Crawl_06",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400128,
+      "name": "Lost Flea - Deep Docks (Dock_03d)",
+      "region": "Deep Docks",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Dock_03d",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400129,
+      "name": "Lost Flea - Deep Docks (Dock_16)",
+      "region": "Deep Docks",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Dock_16",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400130,
+      "name": "Lost Flea - Greymoor (Greymoor_06)",
+      "region": "Greymoor",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Greymoor_06",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400131,
+      "name": "Lost Flea - Greymoor (Greymoor_15b)",
+      "region": "Greymoor",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Greymoor_15b",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400132,
+      "name": "Lost Flea - Hunter's March (Ant_03)",
+      "region": "Hunter's March",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Ant_03",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400133,
+      "name": "Lost Flea - Mount Fay (Peak_05c)",
+      "region": "Mount Fay",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Peak_05c",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400134,
+      "name": "Lost Flea - Sands of Karak (Dust_09)",
+      "region": "Sands of Karak",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Dust_09",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400135,
+      "name": "Lost Flea - Sands of Karak (Dust_12)",
+      "region": "Sands of Karak",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Dust_12",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400136,
+      "name": "Lost Flea - Sands of Karak (Shadow_10)",
+      "region": "Sands of Karak",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Shadow_10",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400137,
+      "name": "Lost Flea - Sands of Karak (Shadow_28)",
+      "region": "Sands of Karak",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Shadow_28",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400138,
+      "name": "Lost Flea - Shellwood (Shellwood_03)",
+      "region": "Shellwood",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Shellwood_03",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400139,
+      "name": "Lost Flea - The Marrow (Bone_06)",
+      "region": "The Marrow",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Bone_06",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400140,
+      "name": "Lost Flea - The Slab (Slab_06)",
+      "region": "The Slab",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Slab_06",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400141,
+      "name": "Lost Flea - The Slab (Slab_Cell)",
+      "region": "The Slab",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Slab_Cell",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400142,
+      "name": "Lost Flea - The Wilds (Bone_East_05)",
+      "region": "The Wilds",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Bone_East_05",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400143,
+      "name": "Lost Flea - The Wilds (Bone_East_10_Church)",
+      "region": "The Wilds",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Bone_East_10_Church",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400144,
+      "name": "Lost Flea - The Wilds (Bone_East_17b)",
+      "region": "The Wilds",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Bone_East_17b",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400145,
+      "name": "Lost Flea - Underworks (Under_21)",
+      "region": "Underworks",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Under_21",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400146,
+      "name": "Lost Flea - Underworks (Under_23)",
+      "region": "Underworks",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Under_23",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400147,
+      "name": "Lost Flea - Whispering Vaults (Library_01)",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Lost Flea",
+      "flag": "SavedFlea_Library_01",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400148,
+      "name": "Mask Shard - Bellhart (Dark Hearts)",
+      "region": "Bellhart",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400149,
+      "name": "Mask Shard - Bellhart (Savage Beastfly Wish)",
+      "region": "Bellhart",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400150,
+      "name": "Mask Shard - Bellhart (The Hidden Hunter)",
+      "region": "Bellhart",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400151,
+      "name": "Mask Shard - Bilewater (Wooden Structure)",
+      "region": "Bilewater",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400152,
+      "name": "Mask Shard - Blasted Steps (Silk Soar Platform)",
+      "region": "Blasted Steps",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400153,
+      "name": "Mask Shard - Choral Chambers (Jubilana Shop)",
+      "region": "Choral Chambers",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400154,
+      "name": "Mask Shard - Cogwork Core (Enemy Waves)",
+      "region": "Cogwork Core",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400155,
+      "name": "Mask Shard - Deep Docks (Enemy Room)",
+      "region": "Deep Docks",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400156,
+      "name": "Mask Shard - Far Fields (Behind Vines, Combat)",
+      "region": "Far Fields",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400157,
+      "name": "Mask Shard - Far Fields (Fastest in Pharloom Quest)",
+      "region": "Far Fields",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400158,
+      "name": "Mask Shard - Far Fields (Updraft Bomb Ceiling)",
+      "region": "Far Fields",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400159,
+      "name": "Mask Shard - Mount Fay (Brightvein, Silk Soar)",
+      "region": "Mount Fay",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400160,
+      "name": "Mask Shard - Mount Fay (Tower Foundation)",
+      "region": "Mount Fay",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400161,
+      "name": "Mask Shard - Shellwood (Behind Vine Wall)",
+      "region": "Shellwood",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400162,
+      "name": "Mask Shard - The Slab (Apostate Key + Faydown)",
+      "region": "The Slab",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400163,
+      "name": "Mask Shard - Weavenest Atla (Hidden Path)",
+      "region": "Weavenest Atla",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400164,
+      "name": "Mask Shard - Whispering Vaults (Raise Platform)",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400165,
+      "name": "Mask Shard - Wisp Thicket (Right of Bench)",
+      "region": "Wisp Thicket",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400166,
+      "name": "Mask Shard - Wormways (Water Pit Wall)",
+      "region": "Wormways",
+      "vanilla_item": "Mask Shard",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400167,
+      "name": "Memory Locket - Bellhart (After Silk Soar)",
+      "region": "Bellhart",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400168,
+      "name": "Memory Locket - Bellhart (Frey's Shop)",
+      "region": "Bellhart",
+      "vanilla_item": "Memory Locket",
+      "flag": "PurchasedBelltownMemoryLocket",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400169,
+      "name": "Memory Locket - Bilewater (Above Hot Vent)",
+      "region": "Bilewater",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400170,
+      "name": "Memory Locket - Bilewater (Ceiling Bags Corpse)",
+      "region": "Bilewater",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400171,
+      "name": "Memory Locket - Blasted Steps (Dark Passageway)",
+      "region": "Blasted Steps",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400172,
+      "name": "Memory Locket - Choral Chambers (Grand Bellway)",
+      "region": "Choral Chambers",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400173,
+      "name": "Memory Locket - Deep Docks (Below Sauna)",
+      "region": "Deep Docks",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400174,
+      "name": "Memory Locket - Far Fields (Hidden Alcove, Skarrgard)",
+      "region": "Far Fields",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400175,
+      "name": "Memory Locket - Far Fields (Mort's Shop)",
+      "region": "Far Fields",
+      "vanilla_item": "Memory Locket",
+      "flag": "PurchasedPilgrimsRestMemoryLocket",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400176,
+      "name": "Memory Locket - Greymoor (Halfway Home, Faydown)",
+      "region": "Greymoor",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400177,
+      "name": "Memory Locket - Greymoor (Right of Moorwing)",
+      "region": "Greymoor",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400178,
+      "name": "Memory Locket - Hunter's March (Corpse)",
+      "region": "Hunter's March",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400179,
+      "name": "Memory Locket - Memorium (Leftmost)",
+      "region": "Memorium",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400180,
+      "name": "Memory Locket - Moss Grotto (Volatile Flintbeetle Reward)",
+      "region": "Moss Grotto",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400181,
+      "name": "Memory Locket - Sands of Karak (Golden Balls)",
+      "region": "Sands of Karak",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400182,
+      "name": "Memory Locket - The Marrow (Upper NW, Cling Grip)",
+      "region": "The Marrow",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400183,
+      "name": "Memory Locket - The Slab (Cave, Faydown)",
+      "region": "The Slab",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400184,
+      "name": "Memory Locket - Underworks (Small Top Room)",
+      "region": "Underworks",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400185,
+      "name": "Memory Locket - Whispering Vaults (Levers & Fan)",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400186,
+      "name": "Memory Locket - Wormways (Bottom Dead End)",
+      "region": "Wormways",
+      "vanilla_item": "Memory Locket",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400187,
+      "name": "Moss Grotto - Elegy of the Deep",
+      "region": "Moss Grotto",
+      "vanilla_item": "Elegy of the Deep",
+      "flag": "hasNeedolinMemoryPowerup",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400188,
+      "name": "Moss Grotto - Great Shard",
+      "region": "Moss Grotto",
+      "vanilla_item": "Great Shard",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Instant",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400189,
+      "name": "Moss Grotto - Rosary_Set_Frayed",
+      "region": "Moss Grotto",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "tut_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400190,
+      "name": "Moss Grotto - Seal Chit Aspid_01",
+      "region": "Moss Grotto",
+      "vanilla_item": "Seal Chit Aspid_01",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (2)",
+      "scene": "aspid_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400191,
+      "name": "Mossberry - Bone Bottom (bonegrave)",
+      "region": "Bone Bottom",
+      "vanilla_item": "Mossberry",
+      "flag": "bonegraveAspidBerryCollected",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400192,
+      "name": "Mossberry - Bone Bottom (bonetown)",
+      "region": "Bone Bottom",
+      "vanilla_item": "Mossberry",
+      "flag": "bonetownAspidBerryCollected",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400193,
+      "name": "Mossberry - Bone Bottom (mosstown)",
+      "region": "Bone Bottom",
+      "vanilla_item": "Mossberry",
+      "flag": "mosstownAspidBerryCollected",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400194,
+      "name": "Mossberry - Moss Grotto (tut_01b)",
+      "region": "Moss Grotto",
+      "vanilla_item": "Mossberry",
+      "flag": null,
+      "gameObject": "moss_berry_fruit",
+      "scene": "tut_01b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400195,
+      "name": "Mossberry - Moss Grotto (tut_02)",
+      "region": "Moss Grotto",
+      "vanilla_item": "Mossberry",
+      "flag": null,
+      "gameObject": "moss_berry_fruit",
+      "scene": "tut_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400196,
+      "name": "Mossberry - Verdania (arborium_04)",
+      "region": "Verdania",
+      "vanilla_item": "Mossberry",
+      "flag": null,
+      "gameObject": "moss_berry_fruit",
+      "scene": "arborium_04",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400197,
+      "name": "Mossberry - Weavenest (weave_03)",
+      "region": "Weavenest",
+      "vanilla_item": "Mossberry",
+      "flag": null,
+      "gameObject": "moss_berry_fruit",
+      "scene": "weave_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400198,
+      "name": "Mount Fay - Faydown Cloak",
+      "region": "Mount Fay",
+      "vanilla_item": "Faydown Cloak",
+      "flag": "hasDoubleJump",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400199,
+      "name": "Mount Fay - Revenge Crystal",
+      "region": "Mount Fay",
+      "vanilla_item": "Revenge Crystal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bellway_peak_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400200,
+      "name": "Mushroom Quest - Mount Fay",
+      "region": "Mount Fay",
+      "vanilla_item": "Mushroom",
+      "flag": "MushroomQuestFound6",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400201,
+      "name": "Relic - The Wilds (aspid_16)",
+      "region": "The Wilds",
+      "vanilla_item": "Relic",
+      "flag": "aspid_16_relic",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400202,
+      "name": "Sands of Karak - Barbed Wire",
+      "region": "Sands of Karak",
+      "vanilla_item": "Barbed Wire",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dust_barb",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400203,
+      "name": "Sands of Karak - Broken SilkShot",
+      "region": "Sands of Karak",
+      "vanilla_item": "Broken SilkShot",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shadow_weavehome",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400204,
+      "name": "Sands of Karak - Crest Socket Unlocker",
+      "region": "Sands of Karak",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shadow_20",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400205,
+      "name": "Sands of Karak - Pickled Roach Egg",
+      "region": "Sands of Karak",
+      "vanilla_item": "Pickled Roach Egg",
+      "flag": "gotPickledRoachEgg",
+      "gameObject": "Pickup",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400206,
+      "name": "Sands of Karak - Pickled Roach Egg #2",
+      "region": "Sands of Karak",
+      "vanilla_item": "Pickled Roach Egg",
+      "flag": "gotPickledRoachEgg",
+      "gameObject": "Return Pickup",
+      "scene": "dust_chef",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400207,
+      "name": "Sands of Karak - Quick Sling",
+      "region": "Sands of Karak",
+      "vanilla_item": "Quick Sling",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "shadow_11",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400208,
+      "name": "Sands of Karak - Rosary_Set_Frayed",
+      "region": "Sands of Karak",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dust_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400209,
+      "name": "Sands of Karak - Shard Pouch",
+      "region": "Sands of Karak",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dust_06",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400210,
+      "name": "Sands of Karak - Simple Key",
+      "region": "Sands of Karak",
+      "vanilla_item": "Simple Key",
+      "flag": "CollectedDustCageKey",
+      "gameObject": "Collectable Item SimpleKey",
+      "scene": "dust_06",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400211,
+      "name": "Sands of Karak - Snare Soul Swamp Bug",
+      "region": "Sands of Karak",
+      "vanilla_item": "Snare Soul Swamp Bug",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "shadow_bilehaven_room",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400212,
+      "name": "Sands of Karak - Tack",
+      "region": "Sands of Karak",
+      "vanilla_item": "Tack",
+      "flag": null,
+      "gameObject": "Collectable Item Dustpilo",
+      "scene": "dust_shack",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400213,
+      "name": "Sands of Karak - Wood Witch Item",
+      "region": "Sands of Karak",
+      "vanilla_item": "Wood Witch Item",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "shadow_20",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400214,
+      "name": "Shellwood - Cling Grip",
+      "region": "Shellwood",
+      "vanilla_item": "Cling Grip",
+      "flag": "hasWalljump",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400215,
+      "name": "Shellwood - Flower Heart",
+      "region": "Shellwood",
+      "vanilla_item": "Flower Heart",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shellwood_11b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400216,
+      "name": "Shellwood - Rosary_Set_Frayed",
+      "region": "Shellwood",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shellwood_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400217,
+      "name": "Shellwood - Rosary_Set_Small",
+      "region": "Shellwood",
+      "vanilla_item": "Rosary_Set_Small",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shellwood_01b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400218,
+      "name": "Shellwood - Rosary_Set_Small #2",
+      "region": "Shellwood",
+      "vanilla_item": "Rosary_Set_Small",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "shellwood_25",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400219,
+      "name": "Shellwood - Shard Pouch",
+      "region": "Shellwood",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shellwood_13",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400220,
+      "name": "Shellwood - Weaver Totem Witch",
+      "region": "Shellwood",
+      "vanilla_item": "Weaver Totem Witch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "shellwood_25",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400221,
+      "name": "Shop - Architect - Architect Key",
+      "region": "Underworks",
+      "vanilla_item": "Architect Key",
+      "flag": "PurchasedArchitectKey",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400222,
+      "name": "Shop - Architect - Tool Kit",
+      "region": "Underworks",
+      "vanilla_item": "Tool Kit",
+      "flag": "PurchasedArchitectToolKit",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400223,
+      "name": "Shop - Belltown - Shell Fragment",
+      "region": "Bellhart",
+      "vanilla_item": "Shell Fragment",
+      "flag": "PurchasedBelltownShellFragment",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400224,
+      "name": "Shop - Belltown - Spool Fragment",
+      "region": "Bellhart",
+      "vanilla_item": "Spool Fragment",
+      "flag": "PurchasedBelltownSpoolSegment",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400225,
+      "name": "Shop - Belltown - Tool Pouch",
+      "region": "Bellhart",
+      "vanilla_item": "Tool Pouch",
+      "flag": "PurchasedBelltownToolPouch",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400226,
+      "name": "Shop - Bone Bottom - Faith Token",
+      "region": "Bone Bottom",
+      "vanilla_item": "Faith Token",
+      "flag": "PurchasedBonebottomFaithToken",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400227,
+      "name": "Shop - Bone Bottom - Mask Shard",
+      "region": "Bone Bottom",
+      "vanilla_item": "Mask Shard",
+      "flag": "PurchasedBonebottomHeartPiece",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400228,
+      "name": "Shop - Bone Bottom - Tool Metal",
+      "region": "Bone Bottom",
+      "vanilla_item": "Tool Metal",
+      "flag": "PurchasedBonebottomToolMetal",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400229,
+      "name": "Shop - Forge Daughter - Tool Kit",
+      "region": "Deep Docks",
+      "vanilla_item": "Tool Kit",
+      "flag": "PurchasedForgeToolKit",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400230,
+      "name": "Shop - Grindle - Simple Key",
+      "region": "Sands of Karak",
+      "vanilla_item": "Simple Key",
+      "flag": "purchasedGrindleSimpleKey",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400231,
+      "name": "Shop - Grindle - Spool Fragment",
+      "region": "Sands of Karak",
+      "vanilla_item": "Spool Fragment",
+      "flag": "purchasedGrindleSpoolPiece",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400232,
+      "name": "Shop - Grindle - Tool Kit",
+      "region": "Sands of Karak",
+      "vanilla_item": "Tool Kit",
+      "flag": "purchasedGrindleToolKit",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400233,
+      "name": "Shop - Pilgrim's Rest - Tool Pouch",
+      "region": "Far Fields",
+      "vanilla_item": "Tool Pouch",
+      "flag": "PurchasedPilgrimsRestToolPouch",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400234,
+      "name": "Silk Heart - The Cradle (after Lace)",
+      "region": "The Cradle",
+      "vanilla_item": "Silk Heart",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400235,
+      "name": "Silk Heart - The Marrow (after Bell Beast)",
+      "region": "The Marrow",
+      "vanilla_item": "Silk Heart",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400236,
+      "name": "Silk Heart - Whiteward (after The Unravelled)",
+      "region": "Whiteward",
+      "vanilla_item": "Silk Heart",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400237,
+      "name": "Silk Skill - Cross Stitch (Bilewater)",
+      "region": "Bilewater",
+      "vanilla_item": "Cross Stitch",
+      "flag": "hasParry",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400238,
+      "name": "Silk Skill - Pale Nails (The Cradle)",
+      "region": "The Cradle",
+      "vanilla_item": "Pale Nails",
+      "flag": "hasSilkBossNeedle",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400239,
+      "name": "Silk Skill - Rune Rage (The Slab)",
+      "region": "The Slab",
+      "vanilla_item": "Rune Rage",
+      "flag": "hasSilkBomb",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400240,
+      "name": "Silk Skill - Sharpdart (Wormways)",
+      "region": "Wormways",
+      "vanilla_item": "Sharpdart",
+      "flag": "hasSilkCharge",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400241,
+      "name": "Silk Skill - Silk Spear (Mosshome)",
+      "region": "Mosshome",
+      "vanilla_item": "Silk Spear",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": "Silk Spear"
+    },
+    {
+      "id": 9400242,
+      "name": "Silk Skill - Thread Storm (Craw Lake)",
+      "region": "Craw Lake",
+      "vanilla_item": "Thread Storm",
+      "flag": "hasThreadSphere",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400243,
+      "name": "Spool Fragment - Greymoor",
+      "region": "Greymoor",
+      "vanilla_item": "Spool Fragment",
+      "flag": "tookGreymoor17Spool",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400244,
+      "name": "Spool Fragment - Merchant Enclave",
+      "region": "Choral Chambers",
+      "vanilla_item": "Spool Fragment",
+      "flag": "MerchantEnclaveSpoolPiece",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400245,
+      "name": "Spool Fragment - Pilgrim's Rest",
+      "region": "Far Fields",
+      "vanilla_item": "Spool Fragment",
+      "flag": "pilgrimQuestSpoolCollected",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400246,
+      "name": "The Abyss - Ancient Egg Abyss Middle",
+      "region": "The Abyss",
+      "vanilla_item": "Ancient Egg Abyss Middle",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "abyss_04",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400247,
+      "name": "The Abyss - Farsight",
+      "region": "The Abyss",
+      "vanilla_item": "Farsight",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "abyss_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400248,
+      "name": "The Abyss - Silk Soar",
+      "region": "The Abyss",
+      "vanilla_item": "Silk Soar",
+      "flag": "hasSuperJump",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400249,
+      "name": "The Marrow - Beastfly Remains",
+      "region": "The Marrow",
+      "vanilla_item": "Beastfly Remains",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_08_boss_beastfly",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400250,
+      "name": "The Marrow - Bone Necklace",
+      "region": "The Marrow",
+      "vanilla_item": "Bone Necklace",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_17",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400251,
+      "name": "The Marrow - Crest Socket Unlocker",
+      "region": "The Marrow",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Locket",
+      "scene": "bone_10",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400252,
+      "name": "The Marrow - Crest Socket Unlocker #2",
+      "region": "The Marrow",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_18",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400253,
+      "name": "The Marrow - Rosary_Set_Frayed",
+      "region": "The Marrow",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_10",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400254,
+      "name": "The Marrow - Skull King Fragment",
+      "region": "The Marrow",
+      "vanilla_item": "Skull King Fragment",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_15",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400255,
+      "name": "The Marrow - Straight Pin",
+      "region": "The Marrow",
+      "vanilla_item": "Straight Pin",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Pin",
+      "scene": "bone_12",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400256,
+      "name": "The Marrow - Tool Metal",
+      "region": "The Marrow",
+      "vanilla_item": "Tool Metal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Tool Metal",
+      "scene": "bone_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400257,
+      "name": "The Slab - Broodmother Remains",
+      "region": "The Slab",
+      "vanilla_item": "Broodmother Remains",
+      "flag": "broodMotherEyeCollected",
+      "gameObject": "Collectable Item Pickup",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400258,
+      "name": "The Slab - Broodmother Remains #2",
+      "region": "The Slab",
+      "vanilla_item": "Broodmother Remains",
+      "flag": "broodMotherEyeCollected",
+      "gameObject": "Collectable Item Pickup - Broodmother Eye",
+      "scene": "slab_16b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400259,
+      "name": "The Slab - Crest Socket Unlocker",
+      "region": "The Slab",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "slab_cell_quiet",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400260,
+      "name": "The Slab - Rosary_Set_Frayed",
+      "region": "The Slab",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "slab_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400261,
+      "name": "The Slab - Rosary_Set_Frayed #2",
+      "region": "The Slab",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "slab_18",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400262,
+      "name": "The Slab - Rosary_Set_Frayed #3",
+      "region": "The Slab",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "slab_22",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400263,
+      "name": "The Slab - Shard Pouch",
+      "region": "The Slab",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "slab_04",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400264,
+      "name": "The Slab - Weaver Totem Slab_Bottom",
+      "region": "The Slab",
+      "vanilla_item": "Weaver Totem Slab_Bottom",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "slab_12",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400265,
+      "name": "The Wilds - Ant Trapper Item",
+      "region": "The Wilds",
+      "vanilla_item": "Ant Trapper Item",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_18b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400266,
+      "name": "The Wilds - Bell Bind",
+      "region": "The Wilds",
+      "vanilla_item": "Bell Bind",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "dock_03b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400267,
+      "name": "The Wilds - Bone Record Bone_East_14",
+      "region": "The Wilds",
+      "vanilla_item": "Bone Record Bone_East_14",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "bone_east_14",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400268,
+      "name": "The Wilds - Crest Socket Unlocker",
+      "region": "The Wilds",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_25",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400269,
+      "name": "The Wilds - Curve Claws Upgraded",
+      "region": "The Wilds",
+      "vanilla_item": "Curve Claws Upgraded",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_22",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400270,
+      "name": "The Wilds - Hunter Heart",
+      "region": "The Wilds",
+      "vanilla_item": "Hunter Heart",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ant_queen",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400271,
+      "name": "The Wilds - Rosary_Set_Frayed",
+      "region": "The Wilds",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_04b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400272,
+      "name": "The Wilds - Rosary_Set_Huge_White",
+      "region": "The Wilds",
+      "vanilla_item": "Rosary_Set_Huge_White",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_24",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400273,
+      "name": "The Wilds - Rosary_Set_Small",
+      "region": "The Wilds",
+      "vanilla_item": "Rosary_Set_Small",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_14",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400274,
+      "name": "The Wilds - Weighted Anklet",
+      "region": "The Wilds",
+      "vanilla_item": "Weighted Anklet",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400275,
+      "name": "Tool Metal - Merchant Enclave",
+      "region": "Choral Chambers",
+      "vanilla_item": "Tool Metal",
+      "flag": "MerchantEnclaveToolMetal",
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400276,
+      "name": "Underworks - Bone Record Understore_Map_Room",
+      "region": "Underworks",
+      "vanilla_item": "Bone Record Understore_Map_Room",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_16",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400277,
+      "name": "Underworks - Clawline",
+      "region": "Underworks",
+      "vanilla_item": "Clawline",
+      "flag": "hasHarpoonDash",
+      "gameObject": null,
+      "scene": null,
+      "suppress": true,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400278,
+      "name": "Underworks - Crest Socket Unlocker",
+      "region": "Underworks",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400279,
+      "name": "Underworks - Pristine Core",
+      "region": "Underworks",
+      "vanilla_item": "Pristine Core",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_17",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400280,
+      "name": "Underworks - Psalm Cylinder Ward",
+      "region": "Underworks",
+      "vanilla_item": "Psalm Cylinder Ward",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "under_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400281,
+      "name": "Underworks - Rosary_Set_Frayed",
+      "region": "Underworks",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_07c",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400282,
+      "name": "Underworks - Rosary_Set_Frayed #2",
+      "region": "Underworks",
+      "vanilla_item": "Rosary_Set_Frayed",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_12",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400283,
+      "name": "Underworks - Screw Attack",
+      "region": "Underworks",
+      "vanilla_item": "Screw Attack",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_14",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400284,
+      "name": "Underworks - Shard Pouch",
+      "region": "Underworks",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "under_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400285,
+      "name": "Underworks - Shard Pouch #2",
+      "region": "Underworks",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "under_18",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400286,
+      "name": "Underworks - Tool Metal",
+      "region": "Underworks",
+      "vanilla_item": "Tool Metal",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Tool Metal",
+      "scene": "wisp_05",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400287,
+      "name": "Verdania - Clover Heart",
+      "region": "Verdania",
+      "vanilla_item": "Clover Heart",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "clover_01",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400288,
+      "name": "Verdania - Great Shard",
+      "region": "Verdania",
+      "vanilla_item": "Great Shard",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Instant",
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400289,
+      "name": "Weavenest - Silk Snare",
+      "region": "Weavenest",
+      "vanilla_item": "Silk Snare",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup (1)",
+      "scene": "weave_14",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400290,
+      "name": "Weavenest - Sprintmaster",
+      "region": "Weavenest",
+      "vanilla_item": "Sprintmaster",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_weavehome",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400291,
+      "name": "Weavenest - Weaver Record Sprint_Challenge",
+      "region": "Weavenest",
+      "vanilla_item": "Weaver Record Sprint_Challenge",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "bone_east_weavehome",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400292,
+      "name": "Weavenest - Weaver Record Weave_08",
+      "region": "Weavenest",
+      "vanilla_item": "Weaver Record Weave_08",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "weave_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400293,
+      "name": "Weavenest - White Ring",
+      "region": "Weavenest",
+      "vanilla_item": "White Ring",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "weave_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400294,
+      "name": "Weavenest Atla - Sylphsong",
+      "region": "Weavenest Atla",
+      "vanilla_item": "Sylphsong",
+      "flag": null,
+      "gameObject": null,
+      "scene": null,
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400295,
+      "name": "Whispering Vaults - Cog Heart Pieces",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Cog Heart Pieces",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_16",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400296,
+      "name": "Whispering Vaults - Crest Socket Unlocker",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Crest Socket Unlocker",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400297,
+      "name": "Whispering Vaults - Librarian Melody Cylinder",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Librarian Melody Cylinder",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup - Melody",
+      "scene": "library_10",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400298,
+      "name": "Whispering Vaults - Pale_Oil",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Pale_Oil",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400299,
+      "name": "Whispering Vaults - Psalm Cylinder Librarian",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Psalm Cylinder Librarian",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup Librarian",
+      "scene": "library_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400300,
+      "name": "Whispering Vaults - Rosary_Set_Large",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Rosary_Set_Large",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400301,
+      "name": "Whispering Vaults - Shard Pouch",
+      "region": "Whispering Vaults",
+      "vanilla_item": "Shard Pouch",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "library_12",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400302,
+      "name": "Whiteward - Quickbind",
+      "region": "Whiteward",
+      "vanilla_item": "Quickbind",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ward_03",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400303,
+      "name": "Whiteward - Seal Chit Silk Siphon",
+      "region": "Whiteward",
+      "vanilla_item": "Seal Chit Silk Siphon",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ward_05",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400304,
+      "name": "Whiteward - Seal Chit Ward Corpse",
+      "region": "Whiteward",
+      "vanilla_item": "Seal Chit Ward Corpse",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ward_02b",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400305,
+      "name": "Whiteward - Ward Boss Key",
+      "region": "Whiteward",
+      "vanilla_item": "Ward Boss Key",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "ward_07",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400306,
+      "name": "Wisp Thicket - Bone Record Wisp Top",
+      "region": "Wisp Thicket",
+      "vanilla_item": "Bone Record Wisp Top",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "wisp_08",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400307,
+      "name": "Wisp Thicket - Rosary_Set_Medium",
+      "region": "Wisp Thicket",
+      "vanilla_item": "Rosary_Set_Medium",
+      "flag": null,
+      "gameObject": "Collectable Item Pickup",
+      "scene": "wisp_02",
+      "suppress": false,
+      "tool_unlock": null
+    },
+    {
+      "id": 9400308,
+      "name": "Wisp Thicket - Wisp Lantern",
+      "region": "Wisp Thicket",
+      "vanilla_item": "Wisp Lantern",
+      "flag": null,
+      "gameObject": "Lantern Item",
+      "scene": "belltown_08",
+      "suppress": false,
+      "tool_unlock": null
+    }
+  ],
+  "items": [
+    {
+      "id": 9300000,
+      "name": "Ancient Egg Abyss Middle",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300001,
+      "name": "Ant Trapper Item",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300002,
+      "name": "Architect Key",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300003,
+      "name": "Area Map - Abyss",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasAbyssMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300004,
+      "name": "Area Map - Aqueduct",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasAqueductMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300005,
+      "name": "Area Map - Arborium",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasArboriumMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300006,
+      "name": "Area Map - Bellhart",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasBellhartMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300007,
+      "name": "Area Map - Boneforest",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasBoneforestMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300008,
+      "name": "Area Map - Citadel Understore",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasCitadelUnderstoreMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300009,
+      "name": "Area Map - Clover",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasCloverMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300010,
+      "name": "Area Map - Cog",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasCogMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300011,
+      "name": "Area Map - Coral",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasCoralMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300012,
+      "name": "Area Map - Cradle",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasCradleMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300013,
+      "name": "Area Map - Crawl",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasCrawlMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300014,
+      "name": "Area Map - Docks",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasDocksMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300015,
+      "name": "Area Map - Dustpens",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasDustpensMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300016,
+      "name": "Area Map - Greymoor",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasGreymoorMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300017,
+      "name": "Area Map - Halls",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasHallsMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300018,
+      "name": "Area Map - Hang",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasHangMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300019,
+      "name": "Area Map - Hunters Nest",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasHuntersNestMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300020,
+      "name": "Area Map - Judge Steps",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasJudgeStepsMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300021,
+      "name": "Area Map - Library",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasLibraryMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300022,
+      "name": "Area Map - Moss Grotto",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasMossGrottoMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300023,
+      "name": "Area Map - Peak",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasPeakMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300024,
+      "name": "Area Map - Shellwood",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasShellwoodMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300025,
+      "name": "Area Map - Slab",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasSlabMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300026,
+      "name": "Area Map - Song Gate",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasSongGateMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300027,
+      "name": "Area Map - Swamp",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasSwampMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300028,
+      "name": "Area Map - Ward",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasWardMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300029,
+      "name": "Area Map - Weavehome",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasWeavehomeMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300030,
+      "name": "Area Map - Wilds",
+      "classification": "useful",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "HasWildsMap",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300031,
+      "name": "Barbed Wire",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300032,
+      "name": "Beastfly Remains",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300033,
+      "name": "Beastling Call",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300034,
+      "name": "Bell Bind",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300035,
+      "name": "Bone Necklace",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300036,
+      "name": "Bone Record Bone_East_14",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300037,
+      "name": "Bone Record Greymoor_flooded_corridor",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300038,
+      "name": "Bone Record Understore_Map_Room",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300039,
+      "name": "Bone Record Wisp Top",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300040,
+      "name": "Broken SilkShot",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300041,
+      "name": "Broodmother Remains",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300042,
+      "name": "Clawline",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasHarpoonDash",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300043,
+      "name": "Cling Grip",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasWalljump",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300044,
+      "name": "Clover Heart",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300045,
+      "name": "Cog Heart Pieces",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300046,
+      "name": "Conch Drill",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300047,
+      "name": "Coral Heart",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300048,
+      "name": "Coral Ingredient",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300049,
+      "name": "Crawbell",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300050,
+      "name": "Crest Socket Unlocker",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300051,
+      "name": "Cross Stitch",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      },
+      "tool_name": "Parry"
+    },
+    {
+      "id": 9300052,
+      "name": "Crowman Memento",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300053,
+      "name": "Curve Claws",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300054,
+      "name": "Curve Claws Upgraded",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300055,
+      "name": "Dazzle Bind",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300056,
+      "name": "Dazzle Bind Upgraded",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300057,
+      "name": "Dead Mans Purse",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300058,
+      "name": "Dock Demo Key",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300059,
+      "name": "Drifter's Cloak",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasBrolly",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300060,
+      "name": "Elegy of the Deep",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasNeedolinMemoryPowerup",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300061,
+      "name": "Faith Token",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300062,
+      "name": "Farsight",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300063,
+      "name": "Faydown Cloak",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasDoubleJump",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300064,
+      "name": "Flintstone",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300065,
+      "name": "Flower Heart",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300066,
+      "name": "Fractured Mask",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300067,
+      "name": "Great Shard",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300068,
+      "name": "Grey Memento",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300069,
+      "name": "Harpoon",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300070,
+      "name": "Hunter Heart",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300071,
+      "name": "Librarian Melody Cylinder",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300072,
+      "name": "Lightning Rod",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300073,
+      "name": "Lost Flea",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300074,
+      "name": "Maggot Charm",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300075,
+      "name": "Magnetite Dice",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300076,
+      "name": "Mask Shard",
+      "classification": "useful",
+      "effect": {
+        "kind": "increment_int",
+        "field": "heartPieces",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300077,
+      "name": "Materium",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300078,
+      "name": "Memento Garmond",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300079,
+      "name": "Memento Surface",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300080,
+      "name": "Memory Locket",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300081,
+      "name": "Mossberry",
+      "classification": "filler",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300082,
+      "name": "Mushroom",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300083,
+      "name": "Needle Strike",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasNeedleThrow",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300084,
+      "name": "Needolin",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasNeedolin",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300085,
+      "name": "Pale Nails",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      },
+      "tool_name": "Silk Boss Needle"
+    },
+    {
+      "id": 9300086,
+      "name": "Pale_Oil",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300087,
+      "name": "Pickled Roach Egg",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300088,
+      "name": "Pristine Core",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300089,
+      "name": "Psalm Cylinder Hang",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300090,
+      "name": "Psalm Cylinder Librarian",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300091,
+      "name": "Psalm Cylinder Library Roof",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300092,
+      "name": "Psalm Cylinder Ward",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300093,
+      "name": "Quick Sling",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300094,
+      "name": "Quickbind",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300095,
+      "name": "Relic",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300096,
+      "name": "Reserve Bind",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300097,
+      "name": "Revenge Crystal",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300098,
+      "name": "Rosary Cannon",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300099,
+      "name": "Rosary_Set_Frayed",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300100,
+      "name": "Rosary_Set_Huge_White",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300101,
+      "name": "Rosary_Set_Large",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300102,
+      "name": "Rosary_Set_Medium",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300103,
+      "name": "Rosary_Set_Small",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300104,
+      "name": "Rune Rage",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      },
+      "tool_name": "Silk Bomb"
+    },
+    {
+      "id": 9300105,
+      "name": "Screw Attack",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300106,
+      "name": "Seal Chit Aspid_01",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300107,
+      "name": "Seal Chit Silk Siphon",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300108,
+      "name": "Seal Chit Ward Corpse",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300109,
+      "name": "Shard Pouch",
+      "classification": "filler",
+      "effect": {
+        "kind": "add_currency",
+        "currency": "geo",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300110,
+      "name": "Sharpdart",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      },
+      "tool_name": "Silk Charge"
+    },
+    {
+      "id": 9300111,
+      "name": "Shell Fragment",
+      "classification": "filler",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300112,
+      "name": "Shell Satchel",
+      "classification": "filler",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300113,
+      "name": "Silk Heart",
+      "classification": "useful",
+      "effect": {
+        "kind": "increment_int",
+        "field": "silkRegenMax",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300114,
+      "name": "Silk Snare",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300115,
+      "name": "Silk Soar",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasSuperJump",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300116,
+      "name": "Silk Spear",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      },
+      "tool_name": "Silk Spear"
+    },
+    {
+      "id": 9300117,
+      "name": "Simple Key",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300118,
+      "name": "Skull King Fragment",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300119,
+      "name": "Snare Soul Swamp Bug",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300120,
+      "name": "Spool Fragment",
+      "classification": "useful",
+      "effect": {
+        "kind": "increment_int",
+        "field": "silkSpoolParts",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300121,
+      "name": "Sprintmaster",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300122,
+      "name": "Straight Pin",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300123,
+      "name": "Swift Step",
+      "classification": "progression",
+      "effect": {
+        "kind": "set_bool",
+        "flag": "hasDash",
+        "amount": 1
+      }
+    },
+    {
+      "id": 9300124,
+      "name": "Sylphsong",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300125,
+      "name": "Tack",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300126,
+      "name": "Thread Storm",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      },
+      "tool_name": "Thread Sphere"
+    },
+    {
+      "id": 9300127,
+      "name": "Tool Kit",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300128,
+      "name": "Tool Metal",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300129,
+      "name": "Tool Pouch",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300130,
+      "name": "Tri Pin",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300131,
+      "name": "Vintage Nectar",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300132,
+      "name": "Ward Boss Key",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300133,
+      "name": "Ward Key",
+      "classification": "progression",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300134,
+      "name": "Weaver Record Conductor",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300135,
+      "name": "Weaver Record Sprint_Challenge",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300136,
+      "name": "Weaver Record Weave_08",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300137,
+      "name": "Weaver Totem Bonetown_upper_room",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300138,
+      "name": "Weaver Totem Slab_Bottom",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300139,
+      "name": "Weaver Totem Witch",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300140,
+      "name": "Weighted Anklet",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300141,
+      "name": "White Ring",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300142,
+      "name": "Wisp Lantern",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300143,
+      "name": "Wood Witch Item",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": 9300144,
+      "name": "Zap Imbuement",
+      "classification": "useful",
+      "effect": {
+        "kind": "unknown"
+      }
+    }
+  ]
+}
